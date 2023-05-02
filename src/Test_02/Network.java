@@ -20,6 +20,8 @@ public class Network {
         double bestEpoch  = neurons.get(0).getBestEpoch();
         Random  random   = new Random( );
         for(int epoch = 0 ;  epoch != epochs;  epoch ++ ){
+
+
             System.out.println("----------------------------------------------------------");
             int propertyNeuronMutate = random.nextInt(0, neurons.size());
             System.out.println("Epoch: " +  epoch);

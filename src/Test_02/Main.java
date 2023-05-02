@@ -48,7 +48,7 @@ public class Main {
         );
 
         Network network  =  new Network();
-        network.train(1000000,  solutions);
+        network.train(100000,  solutions);
         network.save();
 
         //CHILL 0.0
